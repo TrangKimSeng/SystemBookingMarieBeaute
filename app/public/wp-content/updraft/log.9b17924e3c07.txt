@@ -1,0 +1,797 @@
+0000.001 (0) Opened log file at time: Thu, 21 Nov 2024 13:06:16 +0000 on http://systme-de-rendez-vous-mariebeaut.local
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.8 WP: 6.6.2 PHP: 8.2.23 (cgi-fcgi, Windows NT SEKI0897 10.0 build 26100 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 6M) multisite: N openssl: OpenSSL 3.0.13 30 Jan 2024 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 223793.4 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.014 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.041 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1731589155, seconds_ago=605221)
+0000.054 (0) Set semaphore last lock (fd) time to 2024-11-21 13:06:16
+0000.057 (0) Semaphore lock (fd) complete
+0000.066 (0) Backup run: resumption=0, nonce=9b17924e3c07, file_nonce=9b17924e3c07 begun at=1732194376 (0s ago), job type=backup
+0000.072 (0) Scheduling a resumption (1) after 300 seconds (1732194676) in case this run gets aborted
+0000.114 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2819, C:\Users\Kimse\Local Sites\systme-de-rendez-vous-mariebeaut\app\public\wp-includes\formatting.php)
+0000.117 (0) Checking if we have a zip executable available
+0000.124 (0) Creation of backups of directories: beginning
+0000.136 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.151 (0) Total entities for the zip file: 710 directories, 3256 files (0 skipped as non-modified), 81.6 MB
+0001.179 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.203 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.224 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.251 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.272 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.295 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.3 MB, 3256 files batched, 591 (591) added so far); re-opening (prior size: 0 KB)
+0021.941 (0) A useful amount of data was added after this amount of zip processing: 22.2 s (normalised: 21 s, rate: 1216.8 KB/s)
+0021.956 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 600 files added (on-disk size: 9618.3 KB)
+0021.976 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 700 files added (on-disk size: 9618.3 KB)
+0021.998 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 800 files added (on-disk size: 9618.3 KB)
+0022.019 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 900 files added (on-disk size: 9618.3 KB)
+0022.041 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1000 files added (on-disk size: 9618.3 KB)
+0022.062 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1100 files added (on-disk size: 9618.3 KB)
+0022.068 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 3256 files batched, 516 (1107) added so far); re-opening (prior size: 9618.3 KB)
+0035.947 (0) A useful amount of data was added after this amount of zip processing: 14.2 s (normalised: 14.1 s, rate: 1819.3 KB/s)
+0035.979 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1200 files added (on-disk size: 16698.4 KB)
+0036.000 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1300 files added (on-disk size: 16698.4 KB)
+0036.021 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1400 files added (on-disk size: 16698.4 KB)
+0036.040 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1500 files added (on-disk size: 16698.4 KB)
+0036.061 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1600 files added (on-disk size: 16698.4 KB)
+0036.084 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1700 files added (on-disk size: 16698.4 KB)
+0036.106 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1800 files added (on-disk size: 16698.4 KB)
+0036.128 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 1900 files added (on-disk size: 16698.4 KB)
+0036.147 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2000 files added (on-disk size: 16698.4 KB)
+0036.168 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2100 files added (on-disk size: 16698.4 KB)
+0036.173 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7 MB, 3256 files batched, 1001 (2108) added so far); re-opening (prior size: 16698.4 KB)
+0060.636 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2200 files added (on-disk size: 19269 KB)
+0060.656 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2300 files added (on-disk size: 19269 KB)
+0060.677 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2400 files added (on-disk size: 19269 KB)
+0060.696 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2500 files added (on-disk size: 19269 KB)
+0060.719 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2600 files added (on-disk size: 19269 KB)
+0060.739 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2700 files added (on-disk size: 19269 KB)
+0060.760 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2800 files added (on-disk size: 19269 KB)
+0060.780 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 2900 files added (on-disk size: 19269 KB)
+0060.801 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 3000 files added (on-disk size: 19269 KB)
+0060.821 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 3100 files added (on-disk size: 19269 KB)
+0060.826 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.1 MB, 3256 files batched, 1001 (3109) added so far); re-opening (prior size: 19269 KB)
+0094.813 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.tmp: 3200 files added (on-disk size: 25776.9 KB)
+0098.994 (0) Creating zip file manifest (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.list-temp.tmp)
+0099.007 (0) Successfully created zip file manifest (size: 257553)
+0099.229 (0) Created plugins zip (0) - 26068.2 KB in 99.1 s (263.1 KB/s) (sha1: 74267aed9f683cb2bd72f819305e70777b935fb5, sha256: dce803f549ca30f6b7079121139e4877b26d7857926dbc20fa79e7abbf3e62c6)
+0099.241 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0099.244 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6331903b9f55606481de3fdaecbc3867)
+0100.955 (0) Google Drive: quota usage: used=80.9 MB, total=15360 MB, available=15279.1 MB
+0100.960 (0) Google Drive: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Xw33N0kSdbtHRONUBZOfJHvnCMyK_Qws)
+0102.108 (0) Googledrive chunked upload: 3.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 5.7 / 8)
+0102.860 (0) Googledrive chunked upload: 11.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 5.8 / 8)
+0103.786 (0) Googledrive chunked upload: 27.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 5.8 / 8)
+0105.276 (0) Googledrive chunked upload: 58.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 5.8 / 8)
+0108.072 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0108.081 (0) Google Drive: OK: Archive backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip uploaded in 7.12 seconds
+0108.083 (0) Recording as successfully uploaded: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip
+0108.091 (0) Deleting local file: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip: OK
+0108.102 (0) Beginning creation of dump of themes (split every: 400 MB)
+0108.208 (0) Total entities for the zip file: 48 directories, 348 files (0 skipped as non-modified), 12.3 MB
+0108.262 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0108.310 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0108.337 (0) Zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0114.751 (0) Creating zip file manifest (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip.list-temp.tmp)
+0114.756 (0) Successfully created zip file manifest (size: 23986)
+0114.854 (0) Created themes zip (0) - 11149.6 KB in 6.7 s (1653 KB/s) (sha1: f74ab1b396204ce836e3f3a97d14b83fb1206f01, sha256: f67b5795271fba835fd08c577ae7a2cc7ce46739a94ca9e7808a972543888033)
+0114.863 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0114.866 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6331903b9f55606481de3fdaecbc3867)
+0115.372 (0) Google Drive: quota usage: used=106.4 MB, total=15360 MB, available=15253.6 MB
+0115.385 (0) Google Drive: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip: Attempting to upload to Google Drive (into folder id: 1Xw33N0kSdbtHRONUBZOfJHvnCMyK_Qws)
+0116.520 (0) Googledrive chunked upload: 9.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 5.3 / 8)
+0117.082 (0) Googledrive chunked upload: 27.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 5.3 / 8)
+0118.013 (0) Googledrive chunked upload: 64.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 5.3 / 8)
+0119.886 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0119.894 (0) Google Drive: OK: Archive backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip uploaded in 4.5 seconds
+0119.897 (0) Recording as successfully uploaded: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip
+0119.904 (0) Deleting local file: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip: OK
+0119.913 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0119.916 (0) Looking for candidates to backup in: C:\Users\Kimse\Local Sites\systme-de-rendez-vous-mariebeaut\app\public/wp-content/uploads
+0119.919 (0) finding files: 2024: adding to list (1)
+0119.922 (0) finding files: booking_calendar: adding to list (2)
+0119.925 (0) finding files: elementor: adding to list (3)
+0119.927 (0) finding files: Mycal_22.ics: adding to list (4)
+0119.929 (0) finding files: Mycal_23.ics: adding to list (5)
+0119.933 (0) finding files: Mycal_24.ics: adding to list (6)
+0119.935 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0119.944 (0) Total entities for the zip file: 5 directories, 4 files (0 skipped as non-modified), 0 MB
+0119.982 (0) Creating zip file manifest (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-uploads.zip.list-temp.tmp)
+0119.986 (0) Successfully created zip file manifest (size: 161)
+0120.002 (0) Created uploads zip (0) - 2.4 KB in 0.1 s (40.8 KB/s) (sha1: 81bb0f6f9399aeb46e68ca3fe8043b461855e808, sha256: 1a3ac9b9da3d8b05d427372df0344548a8743ccc98e7b1798002daaff161e0f3)
+0120.012 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0120.014 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6331903b9f55606481de3fdaecbc3867)
+0120.420 (0) Google Drive: quota usage: used=117.3 MB, total=15360 MB, available=15242.7 MB
+0120.432 (0) Google Drive: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Xw33N0kSdbtHRONUBZOfJHvnCMyK_Qws)
+0122.521 (0) Googledrive chunked upload: 100 % uploaded
+0122.533 (0) Google Drive: OK: Archive backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-uploads.zip uploaded in 2.1 seconds
+0122.536 (0) Recording as successfully uploaded: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-uploads.zip
+0122.541 (0) Deleting local file: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-uploads.zip: OK
+0122.550 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0122.556 (0) Total entities for the zip file: 1 directories, 0 files (0 skipped as non-modified), 0 MB
+0122.569 (0) Did not find any files in the zip: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-mu-plugins.zip.tmp
+0122.584 (0) Created mu-plugins zip (0) - 0.1 KB in 0 s (4.2 KB/s) (sha1: da86f9159838007fcb15c8abcb3bbcaa2fa66d30, sha256: 8b6cffae944a1a8acd320c52db7be58871427283a454e000e29c40dec3936b6f)
+0122.591 (0) Beginning backup of other directories found in the content directory (index: 0)
+0122.593 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0122.596 (0) Looking for candidates to backup in: C:\Users\Kimse\Local Sites\systme-de-rendez-vous-mariebeaut\app\public/wp-content
+0122.599 (0) finding files: cache: skipping: excluded by options
+0122.602 (0) finding files: index.php: adding to list (1)
+0122.604 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0122.607 (0) finding files: plugins: skipping: this is the plugins directory
+0122.609 (0) finding files: themes: skipping: this is the themes directory
+0122.611 (0) finding files: updraft: skipping: this is the updraft directory
+0122.614 (0) finding files: upgrade: skipping: excluded by options
+0122.617 (0) finding files: upgrade-temp-backup: adding to list (2)
+0122.620 (0) finding files: uploads: skipping: this is the uploads directory
+0122.627 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0122.652 (0) Creating zip file manifest (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-others.zip.list-temp.tmp)
+0122.656 (0) Successfully created zip file manifest (size: 43)
+0122.670 (0) Created others zip (0) - 0.3 KB in 0 s (5.8 KB/s) (sha1: fcd37964f57f9a1f9c773758c83b59d7a74183df, sha256: cf4c667c01d9a52759e75bd33bcae380ae5a9ef9e50d76640821851912ad1466)
+0122.680 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0122.683 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6331903b9f55606481de3fdaecbc3867)
+0123.097 (0) Google Drive: quota usage: used=117.3 MB, total=15360 MB, available=15242.7 MB
+0123.102 (0) Google Drive: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-others.zip: Attempting to upload to Google Drive (into folder id: 1Xw33N0kSdbtHRONUBZOfJHvnCMyK_Qws)
+0125.291 (0) Googledrive chunked upload: 100 % uploaded
+0125.300 (0) Google Drive: OK: Archive backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-others.zip uploaded in 2.19 seconds
+0125.302 (0) Recording as successfully uploaded: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-others.zip
+0125.308 (0) Deleting local file: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-others.zip: OK
+0125.322 (0) Saving backup status to database (elements: 10)
+0125.328 (0) Beginning creation of database dump (WordPress DB)
+0125.331 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0125.356 (0) Table wp_options: Total expected rows (via COUNT): 737
+0125.414 (0) Table wp_options: Rows added in this batch (next record: 1519): 733 (uncompressed bytes in this segment=1898502) in 0.06 seconds
+0125.428 (0) Table wp_options: finishing file(s) (2, 343 KB)
+0125.439 (0) Table wp_users: Total expected rows (via COUNT): 5
+0125.442 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.448 (0) Table wp_users: Rows added in this batch (next record: 7): 5 (uncompressed bytes in this segment=1924) in 0.01 seconds
+0125.459 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0125.471 (0) Table wp_usermeta: Total expected rows (via COUNT): 114
+0125.474 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.482 (0) Table wp_usermeta: Rows added in this batch (next record: 147): 114 (uncompressed bytes in this segment=9064) in 0.01 seconds
+0125.496 (0) Table wp_usermeta: finishing file(s) (2, 3.1 KB)
+0125.508 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0125.514 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0125.528 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0125.538 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0125.540 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.547 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2141) in 0.01 seconds
+0125.558 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0125.569 (0) Table wp_links: Total expected rows (via COUNT): 0
+0125.574 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0125.586 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0125.598 (0) Table wp_postmeta: Total expected rows (via COUNT): 163
+0125.599 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.605 (0) Table wp_postmeta: Rows added in this batch (next record: 367): 163 (uncompressed bytes in this segment=14969) in 0.01 seconds
+0125.621 (0) Table wp_postmeta: finishing file(s) (2, 3.2 KB)
+0125.653 (0) Table wp_posts: Total expected rows (via COUNT): 68
+0125.655 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.685 (0) Table wp_posts: Rows added in this batch (next record: 108): 68 (uncompressed bytes in this segment=1061028) in 0.05 seconds
+0125.701 (0) Table wp_posts: finishing file(s) (2, 192.7 KB)
+0125.712 (0) Table wp_term_relationships: Total expected rows (approximate): 2
+0125.720 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 2 (uncompressed bytes in this segment=715) in 0.01 seconds
+0125.732 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0125.745 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0125.749 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.755 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=957) in 0.02 seconds
+0125.769 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0125.784 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0125.789 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0125.803 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0125.814 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0125.816 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.823 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=785) in 0.01 seconds
+0125.835 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0125.851 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 4
+0125.853 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.856 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 66): 4 (uncompressed bytes in this segment=3495) in 0.01 seconds
+0125.869 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.9 KB)
+0125.879 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0125.884 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=606) in 0.01 seconds
+0125.895 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0125.906 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0125.909 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.915 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=713) in 0.01 seconds
+0125.926 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0125.937 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 5
+0125.940 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.944 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1205) in 0.01 seconds
+0125.955 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0125.970 (0) Table wp_bookly_appointments: Total expected rows (via COUNT): 1
+0125.973 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.977 (0) Table wp_bookly_appointments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2411) in 0.01 seconds
+0125.988 (0) Table wp_bookly_appointments: finishing file(s) (2, 0.8 KB)
+0126.002 (0) Table wp_bookly_categories: Total expected rows (via COUNT): 0
+0126.008 (0) Table wp_bookly_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0126.018 (0) Table wp_bookly_categories: finishing file(s) (2, 0.4 KB)
+0126.029 (0) Table wp_bookly_customer_appointments: Total expected rows (via COUNT): 1
+0126.032 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.038 (0) Table wp_bookly_customer_appointments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3280) in 0.01 seconds
+0126.049 (0) Table wp_bookly_customer_appointments: finishing file(s) (2, 0.9 KB)
+0126.063 (0) Table wp_bookly_customers: Total expected rows (via COUNT): 1
+0126.066 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.069 (0) Table wp_bookly_customers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2226) in 0.01 seconds
+0126.081 (0) Table wp_bookly_customers: finishing file(s) (2, 0.7 KB)
+0126.092 (0) Table wp_bookly_holidays: Total expected rows (via COUNT): 0
+0126.099 (0) Table wp_bookly_holidays: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=774) in 0.01 seconds
+0126.110 (0) Table wp_bookly_holidays: finishing file(s) (2, 0.4 KB)
+0126.121 (0) Table wp_bookly_log: Total expected rows (via COUNT): 5
+0126.124 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.130 (0) Table wp_bookly_log: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=4839) in 0.01 seconds
+0126.141 (0) Table wp_bookly_log: finishing file(s) (2, 1.6 KB)
+0126.152 (0) Table wp_bookly_mailing_campaigns: Total expected rows (via COUNT): 0
+0126.158 (0) Table wp_bookly_mailing_campaigns: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1059) in 0.01 seconds
+0126.171 (0) Table wp_bookly_mailing_campaigns: finishing file(s) (2, 0.5 KB)
+0126.183 (0) Table wp_bookly_mailing_list_recipients: Total expected rows (via COUNT): 0
+0126.186 (0) Table wp_bookly_mailing_list_recipients: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=961) in 0.01 seconds
+0126.198 (0) Table wp_bookly_mailing_list_recipients: finishing file(s) (2, 0.4 KB)
+0126.209 (0) Table wp_bookly_mailing_lists: Total expected rows (via COUNT): 0
+0126.213 (0) Table wp_bookly_mailing_lists: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=538) in 0.01 seconds
+0126.225 (0) Table wp_bookly_mailing_lists: finishing file(s) (2, 0.3 KB)
+0126.237 (0) Table wp_bookly_mailing_queue: Total expected rows (via COUNT): 0
+0126.240 (0) Table wp_bookly_mailing_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.01 seconds
+0126.251 (0) Table wp_bookly_mailing_queue: finishing file(s) (2, 0.4 KB)
+0126.263 (0) Table wp_bookly_news: Total expected rows (via COUNT): 0
+0126.266 (0) Table wp_bookly_news: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=970) in 0.01 seconds
+0126.277 (0) Table wp_bookly_news: finishing file(s) (2, 0.4 KB)
+0126.290 (0) Table wp_bookly_notifications: Total expected rows (via COUNT): 20
+0126.292 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.298 (0) Table wp_bookly_notifications: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=11086) in 0.01 seconds
+0126.310 (0) Table wp_bookly_notifications: finishing file(s) (2, 1.6 KB)
+0126.327 (0) Table wp_bookly_notifications_queue: Total expected rows (via COUNT): 0
+0126.333 (0) Table wp_bookly_notifications_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.01 seconds
+0126.348 (0) Table wp_bookly_notifications_queue: finishing file(s) (2, 0.4 KB)
+0126.361 (0) Table wp_bookly_orders: Total expected rows (via COUNT): 1
+0126.364 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.369 (0) Table wp_bookly_orders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=594) in 0.01 seconds
+0126.381 (0) Table wp_bookly_orders: finishing file(s) (2, 0.4 KB)
+0126.393 (0) Table wp_bookly_payments: Total expected rows (via COUNT): 1
+0126.396 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.399 (0) Table wp_bookly_payments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2680) in 0.01 seconds
+0126.410 (0) Table wp_bookly_payments: finishing file(s) (2, 1.1 KB)
+0126.421 (0) Table wp_bookly_schedule_item_breaks: Total expected rows (via COUNT): 0
+0126.428 (0) Table wp_bookly_schedule_item_breaks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.01 seconds
+0126.441 (0) Table wp_bookly_schedule_item_breaks: finishing file(s) (2, 0.4 KB)
+0126.452 (0) Table wp_bookly_sent_notifications: Total expected rows (via COUNT): 0
+0126.456 (0) Table wp_bookly_sent_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=860) in 0.01 seconds
+0126.467 (0) Table wp_bookly_sent_notifications: finishing file(s) (2, 0.4 KB)
+0126.478 (0) Table wp_bookly_series: Total expected rows (via COUNT): 0
+0126.481 (0) Table wp_bookly_series: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=562) in 0.01 seconds
+0126.492 (0) Table wp_bookly_series: finishing file(s) (2, 0.3 KB)
+0126.504 (0) Table wp_bookly_services: Total expected rows (via COUNT): 2
+0126.506 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.513 (0) Table wp_bookly_services: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=4518) in 0.01 seconds
+0126.525 (0) Table wp_bookly_services: finishing file(s) (2, 1.3 KB)
+0126.537 (0) Table wp_bookly_sessions: Total expected rows (via COUNT): 0
+0126.543 (0) Table wp_bookly_sessions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=701) in 0.01 seconds
+0126.555 (0) Table wp_bookly_sessions: finishing file(s) (2, 0.4 KB)
+0126.568 (0) Table wp_bookly_shop: Total expected rows (via COUNT): 0
+0126.571 (0) Table wp_bookly_shop: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1344) in 0.01 seconds
+0126.584 (0) Table wp_bookly_shop: finishing file(s) (2, 0.5 KB)
+0126.598 (0) Table wp_bookly_staff: Total expected rows (via COUNT): 1
+0126.601 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.606 (0) Table wp_bookly_staff: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2108) in 0.01 seconds
+0126.618 (0) Table wp_bookly_staff: finishing file(s) (2, 0.7 KB)
+0126.630 (0) Table wp_bookly_staff_schedule_items: Total expected rows (via COUNT): 7
+0126.632 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.636 (0) Table wp_bookly_staff_schedule_items: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1273) in 0.01 seconds
+0126.647 (0) Table wp_bookly_staff_schedule_items: finishing file(s) (2, 0.5 KB)
+0126.658 (0) Table wp_bookly_staff_services: Total expected rows (via COUNT): 1
+0126.662 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.667 (0) Table wp_bookly_staff_services: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1334) in 0.01 seconds
+0126.679 (0) Table wp_bookly_staff_services: finishing file(s) (2, 0.6 KB)
+0126.692 (0) Table wp_bookly_stats: Total expected rows (via COUNT): 0
+0126.698 (0) Table wp_bookly_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=567) in 0.01 seconds
+0126.710 (0) Table wp_bookly_stats: finishing file(s) (2, 0.4 KB)
+0126.721 (0) Table wp_bookly_sub_services: Total expected rows (via COUNT): 0
+0126.724 (0) Table wp_bookly_sub_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1113) in 0.01 seconds
+0126.735 (0) Table wp_bookly_sub_services: finishing file(s) (2, 0.5 KB)
+0126.750 (0) Table wp_bookster_agent_metas: Total expected rows (via COUNT): 0
+0126.752 (0) Table wp_bookster_agent_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.01 seconds
+0126.765 (0) Table wp_bookster_agent_metas: finishing file(s) (2, 0.4 KB)
+0126.780 (0) Table wp_bookster_agents: Total expected rows (via COUNT): 1
+0126.782 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.787 (0) Table wp_bookster_agents: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2036) in 0.01 seconds
+0126.802 (0) Table wp_bookster_agents: finishing file(s) (2, 0.7 KB)
+0126.817 (0) Table wp_bookster_appointment_metas: Total expected rows (via COUNT): 0
+0126.822 (0) Table wp_bookster_appointment_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=784) in 0.01 seconds
+0126.835 (0) Table wp_bookster_appointment_metas: finishing file(s) (2, 0.4 KB)
+0126.846 (0) Table wp_bookster_appointments: Total expected rows (via COUNT): 2
+0126.848 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.854 (0) Table wp_bookster_appointments: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2090) in 0.01 seconds
+0126.865 (0) Table wp_bookster_appointments: finishing file(s) (2, 0.7 KB)
+0126.881 (0) Table wp_bookster_assignment_metas: Total expected rows (via COUNT): 0
+0126.887 (0) Table wp_bookster_assignment_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=830) in 0.01 seconds
+0126.901 (0) Table wp_bookster_assignment_metas: finishing file(s) (2, 0.4 KB)
+0126.912 (0) Table wp_bookster_assignments: Total expected rows (via COUNT): 2
+0126.914 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.920 (0) Table wp_bookster_assignments: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=735) in 0.01 seconds
+0126.931 (0) Table wp_bookster_assignments: finishing file(s) (2, 0.4 KB)
+0126.945 (0) Table wp_bookster_available_agent_service: Total expected rows (via COUNT): 1
+0126.948 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.950 (0) Table wp_bookster_available_agent_service: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=962) in 0.01 seconds
+0126.965 (0) Table wp_bookster_available_agent_service: finishing file(s) (2, 0.4 KB)
+0126.978 (0) Table wp_bookster_booking_metas: Total expected rows (via COUNT): 2
+0126.980 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0126.983 (0) Table wp_bookster_booking_metas: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1126) in 0.01 seconds
+0126.996 (0) Table wp_bookster_booking_metas: finishing file(s) (2, 0.5 KB)
+0127.007 (0) Table wp_bookster_bookings: Total expected rows (via COUNT): 2
+0127.010 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.013 (0) Table wp_bookster_bookings: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1809) in 0.01 seconds
+0127.023 (0) Table wp_bookster_bookings: finishing file(s) (2, 0.7 KB)
+0127.039 (0) Table wp_bookster_customer_metas: Total expected rows (via COUNT): 0
+0127.044 (0) Table wp_bookster_customer_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=754) in 0.01 seconds
+0127.057 (0) Table wp_bookster_customer_metas: finishing file(s) (2, 0.4 KB)
+0127.068 (0) Table wp_bookster_customers: Total expected rows (via COUNT): 1
+0127.070 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.077 (0) Table wp_bookster_customers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1378) in 0.01 seconds
+0127.087 (0) Table wp_bookster_customers: finishing file(s) (2, 0.6 KB)
+0127.101 (0) Table wp_bookster_logs: Total expected rows (via COUNT): 0
+0127.106 (0) Table wp_bookster_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1012) in 0.01 seconds
+0127.121 (0) Table wp_bookster_logs: finishing file(s) (2, 0.5 KB)
+0127.132 (0) Table wp_bookster_service_categories: Total expected rows (via COUNT): 2
+0127.135 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.140 (0) Table wp_bookster_service_categories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1265) in 0.01 seconds
+0127.151 (0) Table wp_bookster_service_categories: finishing file(s) (2, 0.6 KB)
+0127.164 (0) Table wp_bookster_service_metas: Total expected rows (via COUNT): 0
+0127.169 (0) Table wp_bookster_service_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=744) in 0.01 seconds
+0127.183 (0) Table wp_bookster_service_metas: finishing file(s) (2, 0.4 KB)
+0127.195 (0) Table wp_bookster_services: Total expected rows (via COUNT): 1
+0127.197 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.203 (0) Table wp_bookster_services: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1882) in 0.01 seconds
+0127.214 (0) Table wp_bookster_services: finishing file(s) (2, 0.7 KB)
+0127.229 (0) Table wp_bookster_transactions: Total expected rows (via COUNT): 0
+0127.234 (0) Table wp_bookster_transactions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1364) in 0.01 seconds
+0127.248 (0) Table wp_bookster_transactions: finishing file(s) (2, 0.5 KB)
+0127.260 (0) Table wp_bup_bookings: Total expected rows (via COUNT): 1
+0127.262 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.268 (0) Table wp_bup_bookings: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1213) in 0.01 seconds
+0127.280 (0) Table wp_bup_bookings: finishing file(s) (2, 0.5 KB)
+0127.294 (0) Table wp_bup_bookings_meta: Total expected rows (via COUNT): 17
+0127.296 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.299 (0) Table wp_bup_bookings_meta: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1208) in 0.01 seconds
+0127.314 (0) Table wp_bup_bookings_meta: finishing file(s) (2, 0.6 KB)
+0127.324 (0) Table wp_bup_carts: Total expected rows (via COUNT): 0
+0127.329 (0) Table wp_bup_carts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=563) in 0.01 seconds
+0127.340 (0) Table wp_bup_carts: finishing file(s) (2, 0.4 KB)
+0127.352 (0) Table wp_bup_categories: Total expected rows (via COUNT): 2
+0127.355 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.360 (0) Table wp_bup_categories: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=644) in 0.01 seconds
+0127.371 (0) Table wp_bup_categories: finishing file(s) (2, 0.4 KB)
+0127.383 (0) Table wp_bup_filter_staff: Total expected rows (via COUNT): 0
+0127.388 (0) Table wp_bup_filter_staff: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=500) in 0.01 seconds
+0127.399 (0) Table wp_bup_filter_staff: finishing file(s) (2, 0.3 KB)
+0127.411 (0) Table wp_bup_filters: Total expected rows (via COUNT): 0
+0127.414 (0) Table wp_bup_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=470) in 0.01 seconds
+0127.425 (0) Table wp_bup_filters: finishing file(s) (2, 0.3 KB)
+0127.437 (0) Table wp_bup_orders: Total expected rows (via COUNT): 1
+0127.440 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.446 (0) Table wp_bup_orders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=853) in 0.01 seconds
+0127.455 (0) Table wp_bup_orders: finishing file(s) (2, 0.5 KB)
+0127.466 (0) Table wp_bup_service_rates: Total expected rows (via COUNT): 11
+0127.468 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.471 (0) Table wp_bup_service_rates: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=900) in 0.01 seconds
+0127.483 (0) Table wp_bup_service_rates: finishing file(s) (2, 0.4 KB)
+0127.493 (0) Table wp_bup_service_variable_pricing: Total expected rows (via COUNT): 0
+0127.498 (0) Table wp_bup_service_variable_pricing: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=597) in 0.01 seconds
+0127.508 (0) Table wp_bup_service_variable_pricing: finishing file(s) (2, 0.3 KB)
+0127.521 (0) Table wp_bup_services: Total expected rows (via COUNT): 8
+0127.524 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.529 (0) Table wp_bup_services: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2124) in 0.01 seconds
+0127.541 (0) Table wp_bup_services: finishing file(s) (2, 0.7 KB)
+0127.552 (0) Table wp_bup_staff_availability: Total expected rows (via COUNT): 7
+0127.554 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.557 (0) Table wp_bup_staff_availability: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=895) in 0.01 seconds
+0127.567 (0) Table wp_bup_staff_availability: finishing file(s) (2, 0.4 KB)
+0127.580 (0) Table wp_bup_staff_availability_breaks: Total expected rows (via COUNT): 0
+0127.585 (0) Table wp_bup_staff_availability_breaks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.01 seconds
+0127.597 (0) Table wp_bup_staff_availability_breaks: finishing file(s) (2, 0.3 KB)
+0127.608 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0127.611 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=529) in 0.01 seconds
+0127.621 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0127.635 (0) Table wp_fcal_booking_activity: Total expected rows (via COUNT): 0
+0127.638 (0) Table wp_fcal_booking_activity: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1059) in 0.01 seconds
+0127.651 (0) Table wp_fcal_booking_activity: finishing file(s) (2, 0.5 KB)
+0127.664 (0) Table wp_fcal_booking_hosts: Total expected rows (via COUNT): 0
+0127.667 (0) Table wp_fcal_booking_hosts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.01 seconds
+0127.679 (0) Table wp_fcal_booking_hosts: finishing file(s) (2, 0.4 KB)
+0127.694 (0) Table wp_fcal_booking_meta: Total expected rows (via COUNT): 0
+0127.700 (0) Table wp_fcal_booking_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.01 seconds
+0127.714 (0) Table wp_fcal_booking_meta: finishing file(s) (2, 0.4 KB)
+0127.733 (0) Table wp_fcal_bookings: Total expected rows (via COUNT): 0
+0127.738 (0) Table wp_fcal_bookings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3172) in 0.02 seconds
+0127.755 (0) Table wp_fcal_bookings: finishing file(s) (2, 0.8 KB)
+0127.770 (0) Table wp_fcal_calendar_events: Total expected rows (via COUNT): 0
+0127.773 (0) Table wp_fcal_calendar_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1996) in 0.01 seconds
+0127.788 (0) Table wp_fcal_calendar_events: finishing file(s) (2, 0.6 KB)
+0127.802 (0) Table wp_fcal_calendars: Total expected rows (via COUNT): 0
+0127.805 (0) Table wp_fcal_calendars: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1778) in 0.01 seconds
+0127.819 (0) Table wp_fcal_calendars: finishing file(s) (2, 0.6 KB)
+0127.833 (0) Table wp_fcal_meta: Total expected rows (via COUNT): 0
+0127.840 (0) Table wp_fcal_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.01 seconds
+0127.854 (0) Table wp_fcal_meta: finishing file(s) (2, 0.4 KB)
+0127.869 (0) Table wp_frm_fields: Total expected rows (via COUNT): 5
+0127.872 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.878 (0) Table wp_frm_fields: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=6046) in 0.02 seconds
+0127.892 (0) Table wp_frm_fields: finishing file(s) (2, 1.1 KB)
+0127.907 (0) Table wp_frm_forms: Total expected rows (via COUNT): 1
+0127.909 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0127.913 (0) Table wp_frm_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2504) in 0.01 seconds
+0127.928 (0) Table wp_frm_forms: finishing file(s) (2, 1.1 KB)
+0127.942 (0) Table wp_frm_item_metas: Total expected rows (via COUNT): 0
+0127.948 (0) Table wp_frm_item_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=699) in 0.01 seconds
+0127.962 (0) Table wp_frm_item_metas: finishing file(s) (2, 0.4 KB)
+0127.973 (0) Table wp_frm_items: Total expected rows (via COUNT): 0
+0127.976 (0) Table wp_frm_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1160) in 0.01 seconds
+0127.987 (0) Table wp_frm_items: finishing file(s) (2, 0.5 KB)
+0128.000 (0) Table wp_ts_appointments: Total expected rows (via COUNT): 0
+0128.003 (0) Table wp_ts_appointments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1011) in 0.01 seconds
+0128.015 (0) Table wp_ts_appointments: finishing file(s) (2, 0.5 KB)
+0128.026 (0) Table wp_ts_coupons: Total expected rows (via COUNT): 0
+0128.028 (0) Table wp_ts_coupons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=664) in 0.01 seconds
+0128.039 (0) Table wp_ts_coupons: finishing file(s) (2, 0.4 KB)
+0128.052 (0) Table wp_ts_customers: Total expected rows (via COUNT): 0
+0128.055 (0) Table wp_ts_customers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=662) in 0.01 seconds
+0128.067 (0) Table wp_ts_customers: finishing file(s) (2, 0.4 KB)
+0128.081 (0) Table wp_ts_payments: Total expected rows (via COUNT): 0
+0128.086 (0) Table wp_ts_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1246) in 0.01 seconds
+0128.100 (0) Table wp_ts_payments: finishing file(s) (2, 0.5 KB)
+0128.115 (0) Table wp_ts_services: Total expected rows (via COUNT): 1
+0128.118 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0128.123 (0) Table wp_ts_services: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=888) in 0.01 seconds
+0128.135 (0) Table wp_ts_services: finishing file(s) (2, 0.4 KB)
+0128.146 (0) Table wp_ts_staff: Total expected rows (via COUNT): 1
+0128.148 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0128.151 (0) Table wp_ts_staff: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=947) in 0.01 seconds
+0128.162 (0) Table wp_ts_staff: finishing file(s) (2, 0.5 KB)
+0128.173 (0) Table wp_ts_staff_services: Total expected rows (via COUNT): 1
+0128.176 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0128.179 (0) Table wp_ts_staff_services: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1009) in 0.01 seconds
+0128.191 (0) Table wp_ts_staff_services: finishing file(s) (2, 0.5 KB)
+0128.206 (0) Table wp_wbk_appointments: Total expected rows (via COUNT): 0
+0128.212 (0) Table wp_wbk_appointments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1919) in 0.01 seconds
+0128.227 (0) Table wp_wbk_appointments: finishing file(s) (2, 0.6 KB)
+0128.241 (0) Table wp_wbk_cancelled_appointments: Total expected rows (via COUNT): 0
+0128.244 (0) Table wp_wbk_cancelled_appointments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1597) in 0.01 seconds
+0128.254 (0) Table wp_wbk_cancelled_appointments: finishing file(s) (2, 0.5 KB)
+0128.265 (0) Table wp_wbk_coupons: Total expected rows (via COUNT): 0
+0128.267 (0) Table wp_wbk_coupons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=664) in 0.01 seconds
+0128.279 (0) Table wp_wbk_coupons: finishing file(s) (2, 0.4 KB)
+0128.290 (0) Table wp_wbk_days_on_off: Total expected rows (via COUNT): 0
+0128.293 (0) Table wp_wbk_days_on_off: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=548) in 0.01 seconds
+0128.303 (0) Table wp_wbk_days_on_off: finishing file(s) (2, 0.3 KB)
+0128.315 (0) Table wp_wbk_email_templates: Total expected rows (via COUNT): 0
+0128.317 (0) Table wp_wbk_email_templates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=516) in 0.01 seconds
+0128.329 (0) Table wp_wbk_email_templates: finishing file(s) (2, 0.3 KB)
+0128.342 (0) Table wp_wbk_gg_calendars: Total expected rows (via COUNT): 0
+0128.345 (0) Table wp_wbk_gg_calendars: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.01 seconds
+0128.358 (0) Table wp_wbk_gg_calendars: finishing file(s) (2, 0.4 KB)
+0128.369 (0) Table wp_wbk_locked_time_slots: Total expected rows (via COUNT): 0
+0128.372 (0) Table wp_wbk_locked_time_slots: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=603) in 0.01 seconds
+0128.382 (0) Table wp_wbk_locked_time_slots: finishing file(s) (2, 0.3 KB)
+0128.393 (0) Table wp_wbk_pricing_rules: Total expected rows (via COUNT): 0
+0128.395 (0) Table wp_wbk_pricing_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1339) in 0.01 seconds
+0128.405 (0) Table wp_wbk_pricing_rules: finishing file(s) (2, 0.5 KB)
+0128.416 (0) Table wp_wbk_service_categories: Total expected rows (via COUNT): 0
+0128.418 (0) Table wp_wbk_service_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=531) in 0.00 seconds
+0128.430 (0) Table wp_wbk_service_categories: finishing file(s) (2, 0.3 KB)
+0128.443 (0) Table wp_wbk_services: Total expected rows (via COUNT): 0
+0128.446 (0) Table wp_wbk_services: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1750) in 0.01 seconds
+0128.456 (0) Table wp_wbk_services: finishing file(s) (2, 0.6 KB)
+0128.468 (0) Table wp_wpdevart_calendars: Total expected rows (via COUNT): 1
+0128.471 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0128.476 (0) Table wp_wpdevart_calendars: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=756) in 0.01 seconds
+0128.487 (0) Table wp_wpdevart_calendars: finishing file(s) (2, 0.4 KB)
+0128.497 (0) Table wp_wpdevart_dates: Total expected rows (approximate): 0
+0128.504 (0) Table wp_wpdevart_dates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=483) in 0.01 seconds
+0128.515 (0) Table wp_wpdevart_dates: finishing file(s) (2, 0.3 KB)
+0128.525 (0) Table wp_wpdevart_extras: Total expected rows (via COUNT): 1
+0128.528 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0128.533 (0) Table wp_wpdevart_extras: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1564) in 0.01 seconds
+0128.544 (0) Table wp_wpdevart_extras: finishing file(s) (2, 0.5 KB)
+0128.555 (0) Table wp_wpdevart_forms: Total expected rows (via COUNT): 2
+0128.557 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0128.560 (0) Table wp_wpdevart_forms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1211) in 0.01 seconds
+0128.570 (0) Table wp_wpdevart_forms: finishing file(s) (2, 0.6 KB)
+0128.584 (0) Table wp_wpdevart_payments: Total expected rows (via COUNT): 0
+0128.589 (0) Table wp_wpdevart_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.01 seconds
+0128.600 (0) Table wp_wpdevart_payments: finishing file(s) (2, 0.4 KB)
+0128.612 (0) Table wp_wpdevart_reservations: Total expected rows (via COUNT): 0
+0128.615 (0) Table wp_wpdevart_reservations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1281) in 0.01 seconds
+0128.626 (0) Table wp_wpdevart_reservations: finishing file(s) (2, 0.5 KB)
+0128.641 (0) Table wp_wpdevart_themes: Total expected rows (via COUNT): 1
+0128.644 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0128.651 (0) Table wp_wpdevart_themes: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=9203) in 0.02 seconds
+0128.664 (0) Table wp_wpdevart_themes: finishing file(s) (2, 2.5 KB)
+0128.681 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 0
+0128.687 (0) Table wp_yoast_indexable: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3860) in 0.01 seconds
+0128.700 (0) Table wp_yoast_indexable: finishing file(s) (2, 1 KB)
+0128.711 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0128.715 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=750) in 0.01 seconds
+0128.727 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0128.737 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0128.740 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0128.748 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1265) in 0.01 seconds
+0128.759 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0128.769 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0128.775 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.01 seconds
+0128.786 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0128.798 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 0
+0128.801 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=981) in 0.01 seconds
+0128.812 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.4 KB)
+0128.815 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\Kimse\Local Sites\systme-de-rendez-vous-mariebeaut\app\public/wp-content/updraft/backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db.gz (line 1925, C:\Users\Kimse\Local Sites\systme-de-rendez-vous-mariebeaut\app\public\wp-content\plugins\updraftplus\backup.php)
+0128.818 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_options.table.tmpr1520.gz (1/111/fopen): adding to final database dump
+0128.826 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_options.table.gz (2/111/fopen): adding to final database dump
+0128.830 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_users.table.tmpr8.gz (3/111/fopen): adding to final database dump
+0128.832 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_users.table.gz (4/111/fopen): adding to final database dump
+0128.835 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_usermeta.table.tmpr148.gz (5/111/fopen): adding to final database dump
+0128.838 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_usermeta.table.gz (6/111/fopen): adding to final database dump
+0128.840 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_commentmeta.table.tmpr0.gz (7/111/fopen): adding to final database dump
+0128.843 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_commentmeta.table.gz (8/111/fopen): adding to final database dump
+0128.846 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_comments.table.tmpr2.gz (9/111/fopen): adding to final database dump
+0128.848 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_comments.table.gz (10/111/fopen): adding to final database dump
+0128.850 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_links.table.tmpr0.gz (11/111/fopen): adding to final database dump
+0128.853 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_links.table.gz (12/111/fopen): adding to final database dump
+0128.855 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_postmeta.table.tmpr368.gz (13/111/fopen): adding to final database dump
+0128.857 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_postmeta.table.gz (14/111/fopen): adding to final database dump
+0128.860 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_posts.table.tmpr109.gz (15/111/fopen): adding to final database dump
+0128.865 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_posts.table.gz (16/111/fopen): adding to final database dump
+0128.867 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_term_relationships.table.tmpr100001.gz (17/111/fopen): adding to final database dump
+0128.870 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_term_relationships.table.gz (18/111/fopen): adding to final database dump
+0128.872 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_term_taxonomy.table.tmpr3.gz (19/111/fopen): adding to final database dump
+0128.874 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_term_taxonomy.table.gz (20/111/fopen): adding to final database dump
+0128.877 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_termmeta.table.tmpr0.gz (21/111/fopen): adding to final database dump
+0128.879 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_termmeta.table.gz (22/111/fopen): adding to final database dump
+0128.882 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_terms.table.tmpr3.gz (23/111/fopen): adding to final database dump
+0128.885 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_terms.table.gz (24/111/fopen): adding to final database dump
+0128.887 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_actionscheduler_actions.table.tmpr67.gz (25/111/fopen): adding to final database dump
+0128.889 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_actionscheduler_actions.table.gz (26/111/fopen): adding to final database dump
+0128.891 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/111/fopen): adding to final database dump
+0128.894 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_actionscheduler_claims.table.gz (28/111/fopen): adding to final database dump
+0128.896 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_actionscheduler_groups.table.tmpr3.gz (29/111/fopen): adding to final database dump
+0128.898 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_actionscheduler_groups.table.gz (30/111/fopen): adding to final database dump
+0128.901 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_actionscheduler_logs.table.tmpr6.gz (31/111/fopen): adding to final database dump
+0128.903 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_actionscheduler_logs.table.gz (32/111/fopen): adding to final database dump
+0128.905 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_appointments.table.tmpr2.gz (33/111/fopen): adding to final database dump
+0128.907 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_appointments.table.gz (34/111/fopen): adding to final database dump
+0128.910 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_categories.table.tmpr0.gz (35/111/fopen): adding to final database dump
+0128.913 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_categories.table.gz (36/111/fopen): adding to final database dump
+0128.916 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_customer_appointments.table.tmpr2.gz (37/111/fopen): adding to final database dump
+0128.918 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_customer_appointments.table.gz (38/111/fopen): adding to final database dump
+0128.921 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_customers.table.tmpr2.gz (39/111/fopen): adding to final database dump
+0128.923 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_customers.table.gz (40/111/fopen): adding to final database dump
+0128.926 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_holidays.table.tmpr0.gz (41/111/fopen): adding to final database dump
+0128.928 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_holidays.table.gz (42/111/fopen): adding to final database dump
+0128.931 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_log.table.tmpr6.gz (43/111/fopen): adding to final database dump
+0128.934 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_log.table.gz (44/111/fopen): adding to final database dump
+0128.937 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_mailing_campaigns.table.tmpr0.gz (45/111/fopen): adding to final database dump
+0128.939 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_mailing_campaigns.table.gz (46/111/fopen): adding to final database dump
+0128.941 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_mailing_list_recipients.table.tmpr0.gz (47/111/fopen): adding to final database dump
+0128.944 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_mailing_list_recipients.table.gz (48/111/fopen): adding to final database dump
+0128.946 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_mailing_lists.table.tmpr0.gz (49/111/fopen): adding to final database dump
+0128.949 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_mailing_lists.table.gz (50/111/fopen): adding to final database dump
+0128.952 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_mailing_queue.table.tmpr0.gz (51/111/fopen): adding to final database dump
+0128.954 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_mailing_queue.table.gz (52/111/fopen): adding to final database dump
+0128.956 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_news.table.tmpr0.gz (53/111/fopen): adding to final database dump
+0128.959 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_news.table.gz (54/111/fopen): adding to final database dump
+0128.961 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_notifications.table.tmpr21.gz (55/111/fopen): adding to final database dump
+0128.964 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_notifications.table.gz (56/111/fopen): adding to final database dump
+0128.967 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_notifications_queue.table.tmpr0.gz (57/111/fopen): adding to final database dump
+0128.969 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_notifications_queue.table.gz (58/111/fopen): adding to final database dump
+0128.972 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_orders.table.tmpr2.gz (59/111/fopen): adding to final database dump
+0128.974 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_orders.table.gz (60/111/fopen): adding to final database dump
+0128.977 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_payments.table.tmpr2.gz (61/111/fopen): adding to final database dump
+0128.980 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_payments.table.gz (62/111/fopen): adding to final database dump
+0128.983 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_schedule_item_breaks.table.tmpr0.gz (63/111/fopen): adding to final database dump
+0128.986 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_schedule_item_breaks.table.gz (64/111/fopen): adding to final database dump
+0128.988 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_sent_notifications.table.tmpr0.gz (65/111/fopen): adding to final database dump
+0128.991 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_sent_notifications.table.gz (66/111/fopen): adding to final database dump
+0128.994 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_series.table.tmpr0.gz (67/111/fopen): adding to final database dump
+0128.996 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_series.table.gz (68/111/fopen): adding to final database dump
+0128.999 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_services.table.tmpr3.gz (69/111/fopen): adding to final database dump
+0129.002 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_services.table.gz (70/111/fopen): adding to final database dump
+0129.004 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_sessions.table.tmpr0.gz (71/111/fopen): adding to final database dump
+0129.007 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_sessions.table.gz (72/111/fopen): adding to final database dump
+0129.009 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_shop.table.tmpr0.gz (73/111/fopen): adding to final database dump
+0129.012 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_shop.table.gz (74/111/fopen): adding to final database dump
+0129.014 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_staff.table.tmpr2.gz (75/111/fopen): adding to final database dump
+0129.017 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_staff.table.gz (76/111/fopen): adding to final database dump
+0129.019 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_staff_schedule_items.table.tmpr8.gz (77/111/fopen): adding to final database dump
+0129.022 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_staff_schedule_items.table.gz (78/111/fopen): adding to final database dump
+0129.024 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_staff_services.table.tmpr3.gz (79/111/fopen): adding to final database dump
+0129.027 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_staff_services.table.gz (80/111/fopen): adding to final database dump
+0129.029 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_stats.table.tmpr0.gz (81/111/fopen): adding to final database dump
+0129.032 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_stats.table.gz (82/111/fopen): adding to final database dump
+0129.034 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_sub_services.table.tmpr0.gz (83/111/fopen): adding to final database dump
+0129.037 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookly_sub_services.table.gz (84/111/fopen): adding to final database dump
+0129.039 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_agent_metas.table.tmpr0.gz (85/111/fopen): adding to final database dump
+0129.042 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_agent_metas.table.gz (86/111/fopen): adding to final database dump
+0129.056 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_agents.table.tmpr2.gz (87/111/fopen): adding to final database dump
+0129.060 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_agents.table.gz (88/111/fopen): adding to final database dump
+0129.063 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_appointment_metas.table.tmpr0.gz (89/111/fopen): adding to final database dump
+0129.065 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_appointment_metas.table.gz (90/111/fopen): adding to final database dump
+0129.068 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_appointments.table.tmpr3.gz (91/111/fopen): adding to final database dump
+0129.071 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_appointments.table.gz (92/111/fopen): adding to final database dump
+0129.073 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_assignment_metas.table.tmpr0.gz (93/111/fopen): adding to final database dump
+0129.076 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_assignment_metas.table.gz (94/111/fopen): adding to final database dump
+0129.079 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_assignments.table.tmpr3.gz (95/111/fopen): adding to final database dump
+0129.082 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_assignments.table.gz (96/111/fopen): adding to final database dump
+0129.084 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_available_agent_service.table.tmpr2.gz (97/111/fopen): adding to final database dump
+0129.087 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_available_agent_service.table.gz (98/111/fopen): adding to final database dump
+0129.089 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_booking_metas.table.tmpr3.gz (99/111/fopen): adding to final database dump
+0129.095 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_booking_metas.table.gz (100/111/fopen): adding to final database dump
+0129.098 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_bookings.table.tmpr3.gz (101/111/fopen): adding to final database dump
+0129.100 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_bookings.table.gz (102/111/fopen): adding to final database dump
+0129.103 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_customer_metas.table.tmpr0.gz (103/111/fopen): adding to final database dump
+0129.105 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_customer_metas.table.gz (104/111/fopen): adding to final database dump
+0129.108 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_customers.table.tmpr2.gz (105/111/fopen): adding to final database dump
+0129.111 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_customers.table.gz (106/111/fopen): adding to final database dump
+0129.114 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_logs.table.tmpr0.gz (107/111/fopen): adding to final database dump
+0129.117 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_logs.table.gz (108/111/fopen): adding to final database dump
+0129.120 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_service_categories.table.tmpr3.gz (109/111/fopen): adding to final database dump
+0129.122 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_service_categories.table.gz (110/111/fopen): adding to final database dump
+0129.125 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_service_metas.table.tmpr0.gz (111/111/fopen): adding to final database dump
+0129.128 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_service_metas.table.gz (112/111/fopen): adding to final database dump
+0129.131 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_services.table.tmpr2.gz (113/111/fopen): adding to final database dump
+0129.133 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_services.table.gz (114/111/fopen): adding to final database dump
+0129.134 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_transactions.table.tmpr0.gz (115/111/fopen): adding to final database dump
+0129.137 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bookster_transactions.table.gz (116/111/fopen): adding to final database dump
+0129.139 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_bookings.table.tmpr2.gz (117/111/fopen): adding to final database dump
+0129.142 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_bookings.table.gz (118/111/fopen): adding to final database dump
+0129.145 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_bookings_meta.table.tmpr18.gz (119/111/fopen): adding to final database dump
+0129.148 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_bookings_meta.table.gz (120/111/fopen): adding to final database dump
+0129.149 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_carts.table.tmpr0.gz (121/111/fopen): adding to final database dump
+0129.152 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_carts.table.gz (122/111/fopen): adding to final database dump
+0129.155 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_categories.table.tmpr5.gz (123/111/fopen): adding to final database dump
+0129.157 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_categories.table.gz (124/111/fopen): adding to final database dump
+0129.160 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_filter_staff.table.tmpr0.gz (125/111/fopen): adding to final database dump
+0129.163 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_filter_staff.table.gz (126/111/fopen): adding to final database dump
+0129.165 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_filters.table.tmpr0.gz (127/111/fopen): adding to final database dump
+0129.168 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_filters.table.gz (128/111/fopen): adding to final database dump
+0129.171 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_orders.table.tmpr2.gz (129/111/fopen): adding to final database dump
+0129.173 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_orders.table.gz (130/111/fopen): adding to final database dump
+0129.176 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_service_rates.table.tmpr12.gz (131/111/fopen): adding to final database dump
+0129.179 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_service_rates.table.gz (132/111/fopen): adding to final database dump
+0129.181 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_service_variable_pricing.table.tmpr0.gz (133/111/fopen): adding to final database dump
+0129.184 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_service_variable_pricing.table.gz (134/111/fopen): adding to final database dump
+0129.186 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_services.table.tmpr9.gz (135/111/fopen): adding to final database dump
+0129.188 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_services.table.gz (136/111/fopen): adding to final database dump
+0129.191 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_staff_availability.table.tmpr8.gz (137/111/fopen): adding to final database dump
+0129.194 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_staff_availability.table.gz (138/111/fopen): adding to final database dump
+0129.197 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_staff_availability_breaks.table.tmpr0.gz (139/111/fopen): adding to final database dump
+0129.199 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_bup_staff_availability_breaks.table.gz (140/111/fopen): adding to final database dump
+0129.202 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_e_events.table.tmpr0.gz (141/111/fopen): adding to final database dump
+0129.204 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_e_events.table.gz (142/111/fopen): adding to final database dump
+0129.207 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_booking_activity.table.tmpr0.gz (143/111/fopen): adding to final database dump
+0129.210 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_booking_activity.table.gz (144/111/fopen): adding to final database dump
+0129.212 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_booking_hosts.table.tmpr0.gz (145/111/fopen): adding to final database dump
+0129.214 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_booking_hosts.table.gz (146/111/fopen): adding to final database dump
+0129.217 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_booking_meta.table.tmpr0.gz (147/111/fopen): adding to final database dump
+0129.220 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_booking_meta.table.gz (148/111/fopen): adding to final database dump
+0129.222 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_bookings.table.tmpr0.gz (149/111/fopen): adding to final database dump
+0129.225 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_bookings.table.gz (150/111/fopen): adding to final database dump
+0129.227 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_calendar_events.table.tmpr0.gz (151/111/fopen): adding to final database dump
+0129.230 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_calendar_events.table.gz (152/111/fopen): adding to final database dump
+0129.232 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_calendars.table.tmpr0.gz (153/111/fopen): adding to final database dump
+0129.235 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_calendars.table.gz (154/111/fopen): adding to final database dump
+0129.237 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_meta.table.tmpr0.gz (155/111/fopen): adding to final database dump
+0129.240 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_fcal_meta.table.gz (156/111/fopen): adding to final database dump
+0129.243 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_frm_fields.table.tmpr6.gz (157/111/fopen): adding to final database dump
+0129.246 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_frm_fields.table.gz (158/111/fopen): adding to final database dump
+0129.248 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_frm_forms.table.tmpr2.gz (159/111/fopen): adding to final database dump
+0129.251 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_frm_forms.table.gz (160/111/fopen): adding to final database dump
+0129.254 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_frm_item_metas.table.tmpr0.gz (161/111/fopen): adding to final database dump
+0129.256 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_frm_item_metas.table.gz (162/111/fopen): adding to final database dump
+0129.259 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_frm_items.table.tmpr0.gz (163/111/fopen): adding to final database dump
+0129.261 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_frm_items.table.gz (164/111/fopen): adding to final database dump
+0129.264 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_appointments.table.tmpr0.gz (165/111/fopen): adding to final database dump
+0129.266 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_appointments.table.gz (166/111/fopen): adding to final database dump
+0129.268 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_coupons.table.tmpr0.gz (167/111/fopen): adding to final database dump
+0129.271 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_coupons.table.gz (168/111/fopen): adding to final database dump
+0129.273 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_customers.table.tmpr0.gz (169/111/fopen): adding to final database dump
+0129.276 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_customers.table.gz (170/111/fopen): adding to final database dump
+0129.278 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_payments.table.tmpr0.gz (171/111/fopen): adding to final database dump
+0129.281 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_payments.table.gz (172/111/fopen): adding to final database dump
+0129.283 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_services.table.tmpr2.gz (173/111/fopen): adding to final database dump
+0129.286 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_services.table.gz (174/111/fopen): adding to final database dump
+0129.288 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_staff.table.tmpr2.gz (175/111/fopen): adding to final database dump
+0129.290 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_staff.table.gz (176/111/fopen): adding to final database dump
+0129.293 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_staff_services.table.tmpr2.gz (177/111/fopen): adding to final database dump
+0129.297 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_ts_staff_services.table.gz (178/111/fopen): adding to final database dump
+0129.300 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_appointments.table.tmpr0.gz (179/111/fopen): adding to final database dump
+0129.302 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_appointments.table.gz (180/111/fopen): adding to final database dump
+0129.304 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_cancelled_appointments.table.tmpr0.gz (181/111/fopen): adding to final database dump
+0129.306 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_cancelled_appointments.table.gz (182/111/fopen): adding to final database dump
+0129.309 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_coupons.table.tmpr0.gz (183/111/fopen): adding to final database dump
+0129.311 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_coupons.table.gz (184/111/fopen): adding to final database dump
+0129.313 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_days_on_off.table.tmpr0.gz (185/111/fopen): adding to final database dump
+0129.316 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_days_on_off.table.gz (186/111/fopen): adding to final database dump
+0129.318 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_email_templates.table.tmpr0.gz (187/111/fopen): adding to final database dump
+0129.320 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_email_templates.table.gz (188/111/fopen): adding to final database dump
+0129.323 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_gg_calendars.table.tmpr0.gz (189/111/fopen): adding to final database dump
+0129.325 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_gg_calendars.table.gz (190/111/fopen): adding to final database dump
+0129.327 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_locked_time_slots.table.tmpr0.gz (191/111/fopen): adding to final database dump
+0129.330 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_locked_time_slots.table.gz (192/111/fopen): adding to final database dump
+0129.333 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_pricing_rules.table.tmpr0.gz (193/111/fopen): adding to final database dump
+0129.335 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_pricing_rules.table.gz (194/111/fopen): adding to final database dump
+0129.337 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_service_categories.table.tmpr0.gz (195/111/fopen): adding to final database dump
+0129.339 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_service_categories.table.gz (196/111/fopen): adding to final database dump
+0129.342 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_services.table.tmpr0.gz (197/111/fopen): adding to final database dump
+0129.344 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wbk_services.table.gz (198/111/fopen): adding to final database dump
+0129.346 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_calendars.table.tmpr2.gz (199/111/fopen): adding to final database dump
+0129.351 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_calendars.table.gz (200/111/fopen): adding to final database dump
+0129.354 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_dates.table.tmpr1.gz (201/111/fopen): adding to final database dump
+0129.356 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_dates.table.gz (202/111/fopen): adding to final database dump
+0129.358 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_extras.table.tmpr2.gz (203/111/fopen): adding to final database dump
+0129.361 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_extras.table.gz (204/111/fopen): adding to final database dump
+0129.363 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_forms.table.tmpr3.gz (205/111/fopen): adding to final database dump
+0129.365 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_forms.table.gz (206/111/fopen): adding to final database dump
+0129.367 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_payments.table.tmpr0.gz (207/111/fopen): adding to final database dump
+0129.369 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_payments.table.gz (208/111/fopen): adding to final database dump
+0129.371 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_reservations.table.tmpr0.gz (209/111/fopen): adding to final database dump
+0129.374 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_reservations.table.gz (210/111/fopen): adding to final database dump
+0129.376 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_themes.table.tmpr2.gz (211/111/fopen): adding to final database dump
+0129.378 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_wpdevart_themes.table.gz (212/111/fopen): adding to final database dump
+0129.380 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_indexable.table.tmpr0.gz (213/111/fopen): adding to final database dump
+0129.383 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_indexable.table.gz (214/111/fopen): adding to final database dump
+0129.385 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_indexable_hierarchy.table.tmpr1.gz (215/111/fopen): adding to final database dump
+0129.387 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_indexable_hierarchy.table.gz (216/111/fopen): adding to final database dump
+0129.389 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_migrations.table.tmpr25.gz (217/111/fopen): adding to final database dump
+0129.391 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_migrations.table.gz (218/111/fopen): adding to final database dump
+0129.394 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_primary_term.table.tmpr0.gz (219/111/fopen): adding to final database dump
+0129.397 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_primary_term.table.gz (220/111/fopen): adding to final database dump
+0129.398 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_seo_links.table.tmpr0.gz (221/111/fopen): adding to final database dump
+0129.401 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db-table-wp_yoast_seo_links.table.gz (222/111/fopen): adding to final database dump
+0129.420 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db.gz: finished writing out complete database file (598.7 KB)
+0129.456 (0) Total database tables backed up: 111 (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db.gz, size: 613239, sha1: 28846b820d14a43cf0ca0c4b0dbbdeb729aa9c30, sha256: 25478531248ed0ce240dd6d5eebafca9fbc9bb70df5e4c41912c2f787e78d1a8)
+0129.468 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip: plugins: This file has already been successfully uploaded
+0129.470 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip: themes: This file has already been successfully uploaded
+0129.473 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-uploads.zip: uploads: This file has already been successfully uploaded
+0129.476 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-mu-plugins.zip: mu-plugins: This file has not yet been successfully uploaded: will queue
+0129.479 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-others.zip: others: This file has already been successfully uploaded
+0129.482 (0) backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db.gz: db: This file has not yet been successfully uploaded: will queue
+0129.484 (0) Saving backup history. Total backup size: 36.9 MB
+0129.489 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0129.496 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0129.499 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6331903b9f55606481de3fdaecbc3867)
+0129.915 (0) Google Drive: quota usage: used=117.3 MB, total=15360 MB, available=15242.7 MB
+0129.927 (0) Google Drive: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Xw33N0kSdbtHRONUBZOfJHvnCMyK_Qws)
+0131.803 (0) Googledrive chunked upload: 100 % uploaded
+0131.813 (0) Google Drive: OK: Archive backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-mu-plugins.zip uploaded in 1.88 seconds
+0131.815 (0) Recording as successfully uploaded: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-mu-plugins.zip
+0131.820 (0) Deleting local file: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-mu-plugins.zip: OK
+0132.218 (0) Google Drive: quota usage: used=117.3 MB, total=15360 MB, available=15242.7 MB
+0132.223 (0) Google Drive: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db.gz: Attempting to upload to Google Drive (into folder id: 1Xw33N0kSdbtHRONUBZOfJHvnCMyK_Qws)
+0134.481 (0) Googledrive chunked upload: 100 % uploaded
+0134.491 (0) Google Drive: OK: Archive backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db.gz uploaded in 2.26 seconds
+0134.493 (0) Recording as successfully uploaded: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db.gz
+0134.498 (0) Deleting local file: backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-db.gz: OK
+0134.504 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0134.507 (0) Number of backup sets in history: 3; groups (db): 1
+0134.509 (0) Examining (for databases) backup set with group_id=0, nonce=9b17924e3c07, datestamp=1732194376 (Nov 21 2024 13:06:16)
+0134.512 (0) This backup set is the backup set just made, so will not be deleted.
+0134.512 (0) Examining (for databases) backup set with group_id=0, nonce=f52ae33ba0f6, datestamp=1731589154 (Nov 14 2024 12:59:14)
+0134.512 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.514 (0) Examining (for databases) backup set with group_id=0, nonce=9cfbd8158f7c, datestamp=1730946568 (Nov 07 2024 02:29:28)
+0134.514 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.514 (0) Number of backup sets in history: 3; groups (files): 1
+0134.517 (0) Examining (for files) backup set with nonce=9b17924e3c07, datestamp=1732194376 (Nov 21 2024 13:06:16)
+0134.517 (0) This backup set is the backup set just made, so will not be deleted.
+0134.520 (0) This backup set is the backup set just made, so will not be deleted.
+0134.520 (0) This backup set is the backup set just made, so will not be deleted.
+0134.520 (0) This backup set is the backup set just made, so will not be deleted.
+0134.520 (0) This backup set is the backup set just made, so will not be deleted.
+0134.520 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.523 (0) Examining (for files) backup set with nonce=f52ae33ba0f6, datestamp=1731589154 (Nov 14 2024 12:59:14)
+0134.523 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.523 (0) Examining (for files) backup set with nonce=9cfbd8158f7c, datestamp=1730946568 (Nov 07 2024 02:29:28)
+0134.523 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0134.523 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0134.529 (0) Resume backup (9b17924e3c07, 0): finish run
+0134.536 (0) Decremented the semaphore (fd) by 1
+0134.541 (0) Semaphore (fd) unlocked
+0134.544 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0134.554 (0) Deleting zip manifest (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-plugins.zip.list.tmp)
+0134.557 (0) Deleting zip manifest (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-themes.zip.list.tmp)
+0134.560 (0) Deleting zip manifest (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-uploads.zip.list.tmp)
+0134.563 (0) Deleting zip manifest (backup_2024-11-21-1306_systmederendezvousmariebeaut_9b17924e3c07-others.zip.list.tmp)
+0134.566 (0) No email will/can be sent - the user has not configured an email address.
+0134.568 (0) The backup succeeded and is now complete

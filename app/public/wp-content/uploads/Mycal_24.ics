@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:7fe791a644f8302a0caa3c4fe9f66a07
+SUMMARY:Système de rendez-vous MarieBeauté - 08 Nov 2024 17:11
+DTSTAMP;TZID=+00:00:20241108T171100
+DTSTART;TZID=+00:00:20241108T171100
+DTEND;TZID=+00:00:20241108T172600
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Système de rendez-vous MarieBeauté \n\nSalon address:  \n\nSalon phone:  \n\nSalon email: admin@gmail.com \n\nBooked services:\n\nBooking notes:\nNone\n\nBooking status: Pending
+END:VEVENT
+END:VCALENDAR
